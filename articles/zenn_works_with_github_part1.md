@@ -77,7 +77,9 @@ usernameが利用可能になるとContinueボタンが押せるようになり�
 必須ではありませんが、セキュリティの観点からAuthenticatorアプリを使用した2要素認証の設定を行います。
 必要ない方は飛ばして問題ありません。
 
-基本的には、[公式の手順通り](https://docs.github.com/ja/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)です。
+基本的には、[公式](https://docs.github.com/ja/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)の手順通りです。
+
+@[card](https://docs.github.com/ja/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
 
 まず、マイページの右上にあるアイコンボタンから`Settings`をクリックします。
 その後、左側のメニュー内から`Password and authentication`をクリックします。
@@ -110,9 +112,9 @@ QRコードを読み込み、コードの入力に成功するとリカバリコ
 次に、GitHubアカウントのメールアドレスの非公開設定を行います。
 以下のサイトを参考にしています。
 
-https://qiita.com/emiki/items/4103150a5d7a7cfbff24
+@[card](https://qiita.com/emiki/items/4103150a5d7a7cfbff24)
 
-https://zenn.dev/ctrlkeykoyubi/articles/0ba47a8ec2bab5#emails
+@[card](https://zenn.dev/ctrlkeykoyubi/articles/0ba47a8ec2bab5#emails)
 
 `Settings`をクリック後、左側のメニュー内から`Emails`をクリックします。
 
@@ -127,3 +129,23 @@ Email設定の下の方にある、以下の2つの項目にチェックを入�
 こうすることで、GitHubにプッシュする際にGitHubに登録したメールアドレスではなく、GitHub側で自動生成されたアドレスが使用されるようになります。
 
 なお、このGitHub側で自動生成されたアドレスは、後でローカルのGit側に紐付ける必要がありますが、それについてはこの後の記事で説明します。
+
+### Zenn用リポジトリ作成
+
+最後に、Zennの記事を管理するためのリポジトリを作成します。
+基本的に、Zenn公式の手順の通りに実施しています。
+
+@[card](https://zenn.dev/zenn/articles/connect-to-github#1.-%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B)
+
+GitHubのマイページから、`Repositories`を選択し、右上にある`New`ボタンをクリックします。
+
+![](https://storage.googleapis.com/zenn-user-upload/b0fa460a68e2-20230424.png =600x)
+
+新規リポジトリ作成画面に切り替わったら、Repository nameを指定します。
+公式では、`zenn-content`でしたが、今回は`zenn-contents`にしています。
+公開設定（Public or Private）はどちらでも問題ないらしいので、好みで選んで問題ありません。
+
+![](https://storage.googleapis.com/zenn-user-upload/3b3d29bedbfc-20230424.png =500x)
+
+ここで指定したリポジトリをZenn側と連携する形になります。
+Zenn側の設定は次の記事で説明します。
