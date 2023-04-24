@@ -3,9 +3,11 @@ title: "Zennの記事をGitHub連携してVSCodeで作成させる手順②"
 emoji: "📜"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn","github","vscode"]
-published: false
+published: true
 ---
 前回からの記事の続きになります。
+
+@[card](https://zenn.dev/yankee/articles/zenn_works_with_github_part1)
 
 # 概要
 
@@ -19,7 +21,7 @@ Zennでは、Qiitaにはない機能として、[GitHub連携による記事の�
 # 記事の構成
 
 以下の順で説明していきます。
-なお、思ってたより記事の分量が多かったため、本記事では**1. GitHubアカウントの作成・初期設定**までとし、それ以降は次の記事に引き継ぐ形としています。
+なお、本記事では**2. Zennアカウントの作成・初期設定と3. GitHubとZennの連携**までとし、それ以降は次の記事に引き継ぐ形としています。
 
 1. GitHubアカウントの作成・初期設定　（[手順①](https://zenn.dev/yankee/articles/zenn_works_with_github_part1)で説明）
 2. **Zennアカウントの作成・初期設定**　⏪本記事で説明
