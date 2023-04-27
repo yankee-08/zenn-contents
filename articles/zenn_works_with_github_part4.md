@@ -3,7 +3,7 @@ title: "Zennの記事をGitHub連携してVSCodeで作成させる手順④　No
 emoji: "📜"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn","github","vscode","npm","bash"]
-published: false
+published: true
 ---
 前回からの記事の続きになります。
 
