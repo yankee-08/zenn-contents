@@ -1,8 +1,8 @@
 ---
-title: "Zennの記事をGitHub連携してVSCodeで作成させる手順①"
+title: "Zennの記事をGitHub連携してVSCodeで作成させる手順① GitHubアカウントの作成・初期設定"
 emoji: "📜"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["zenn","github","vscode"]
+topics: ["zenn","github","vscode","npm","bash"]
 published: true
 ---
 今まで、技術情報は[Qiita](https://qiita.com/yankee)に挙げていたのですが、今回GitHubのアカウントを作成するついでにZennのアカウントも作成してみました。
@@ -22,12 +22,12 @@ Zennでは、Qiitaにはない機能として、[GitHub連携による記事の�
 以下の順で説明していきます。
 なお、思ってたより記事の分量が多かったため、本記事では**1. GitHubアカウントの作成・初期設定**までとし、それ以降は次の記事に引き継ぐ形としています。
 
-1. **GitHubアカウントの作成・初期設定**
-2. Zennアカウントの作成・初期設定
-3. GitHubとZennの連携
-4. Gitのインストール・初期設定
-5. node.js(npm)のインストール
-6. zenn-cliのインストール
+1. **GitHubアカウントの作成・初期設定**　⏪本記事で説明
+2. Zennアカウントの作成・初期設定　（[手順②](https://zenn.dev/yankee/articles/zenn_works_with_github_part2)で説明）
+3. GitHubとZennの連携　（[手順②](https://zenn.dev/yankee/articles/zenn_works_with_github_part2)で説明）
+4. Gitのインストール・初期設定　（[手順③](https://zenn.dev/yankee/articles/zenn_works_with_github_part3)で説明）
+5. node.js(npm)のインストール　（[手順④](https://zenn.dev/yankee/articles/zenn_works_with_github_part4)で説明）
+6. zenn-cliのインストール　（[手順④](https://zenn.dev/yankee/articles/zenn_works_with_github_part4)で説明）
 
 # GitHubアカウントの作成・初期設定
 
