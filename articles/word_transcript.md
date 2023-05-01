@@ -1,9 +1,9 @@
 ---
-title: "Wordの文字起こし（トランスクリプト）機能を試してみた"
+title: "Wordの文字起こし（トランスクリプト・ディクテーション）機能を試してみた"
 emoji: "🔊"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["word","microsoft365","文字起こし"]
-published: false
+published: true
 ---
 機能自体は[結構前にリリースされていた](https://forest.watch.impress.co.jp/docs/news/1273302.html)ようですが、Word Onlineでは音声データの文字起こし（トランスクリプト）機能とリアルタイム文字起こし（ディクテーション）機能が使用できることを最近知りました。
 すでに利用方法の記事は何件も出ていますが、自分の備忘録も兼ねて使った感想をまとめてみます。
