@@ -3,7 +3,7 @@ title: "SwitchBotハブ2を試してみた"
 emoji: "🎡"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["switchbot","iot","bluetooth","赤外線リモコン"]
-published: false
+published: true
 ---
 各種スマート家電デバイスを販売しているSwitchBotシリーズから、先日新たにSwitchBotハブ2が発売されました。
 今回、このデバイスを買ってみましたので、初期設定や既存デバイスとの連携、自宅の各種リモコンの登録手順をまとめてみます。
