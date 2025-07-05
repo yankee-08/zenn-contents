@@ -4,7 +4,6 @@ emoji: "🎓"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["kintone", "資格試験"]
 published: true
-published_at: 
 ---
 
 # 今回の内容
